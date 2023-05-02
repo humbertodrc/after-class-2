@@ -21,6 +21,8 @@ p, a{
   padding: 42px 16px 64px;
 }
 
+/* Container para todas las sections es una clase */
+
 .container{
   margin: 0 14px 65px;
 }
@@ -38,6 +40,8 @@ p, a{
   }
 }
 
+/* Seccion de Encabezado */
+
 .encabezado-titulo{
   font-weight: 400;
   font-size: 80px;
@@ -52,6 +56,8 @@ p, a{
   margin-top: 16px;
   line-height: 28px;
 }
+
+/* Seccion Intro */
 
 .intro-titulo{
   font-size: 40px;
@@ -140,6 +146,8 @@ p, a{
   padding: 8px 30px;
 }
 
+/* Seccion de Galeria de Imagenes */
+
 .galeria h3{
   font-size: 24px;
   font-weight: 700;
@@ -221,6 +229,9 @@ p, a{
   }
 }
 
+
+/* Seccion de Banner */
+
 .banner{
   background: url(../assets/img/banner.png) no-repeat center center;
   height: 192px;
@@ -240,6 +251,8 @@ p, a{
   }
 }
 
+/* Seccion de Cards */
+
 .cards h2{
   font-size: 40px;
   font-weight: 400;
@@ -258,7 +271,6 @@ p, a{
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
 
 .card{
   border-radius: 8px;
@@ -280,7 +292,6 @@ p, a{
     padding: 0 0 32px 17px; 
   }
 }
-
 
 
 .card-1{
