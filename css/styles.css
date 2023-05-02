@@ -116,9 +116,7 @@ p, a{
 .intro-contenido h3{
   font-size: 24px;
   font-weight: 700;
-  text-align: center;
   margin-bottom: 23px;
-  text-align: center;
 }
 
 
@@ -185,6 +183,7 @@ p, a{
 @media (min-width: 1280px) {
   .galeria-images{
     flex-basis: 50%;
+    margin-bottom: 0;
   }
 }
 
